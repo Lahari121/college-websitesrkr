@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1">
+        <title>SRKR Engineering College-Bhimavaram</title>
+
+        <link rel="stylesheet" href="demo.css">
+        <link rel="icon" href="images.jfif">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+        <body>
+        <header class="group">
+            <h1 class="logo tagline">
+                <img src="srkr.png" alt="srkr" title="SRKR Engineering College" style="height:250px; width:1000px"><a href="index.html">&nbsp;&nbsp;SRKR Engineering College</a>
+                <marquee behaviour="scroll" direction="left" scrolldelay="2"><i class="fa fa-map-marker" aria-hidden="true">Chinnamiram<br>Bhimavarm<br>Andhra Pradesh , 534204</i></marquee>
+            </h1>
+
+        </header>
+        </body>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Courses</a>
+
+               <div class="dropdown-content">
+                <a href="Computer">Computer Science</a>
+                <a href="Electronic">Electronic Engineering</a>
+                <a href="Mechanical">MEchanical Engineering</a>
+               </div>
+            </li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </head>
+    <body >
+
+        <!--NEWS Section-->
+        <marquee behaviour="scroll" direction="left" scrollamount="12" scrolldelay="5"  style="background-color:rgba(101, 100, 182, 0.795); color:white";>--- SRKREC Stands 2nd in TIMES Ranking in 2020 --- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --- SRKREC selected for UBA award --- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --- 2 new courses sanctioned by AICTE --- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --- NBA Accreditation granted for all branches --- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ---SRKR wins 1st prize in smart India Hackathon --- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --- EU-INDIA HORIZON 2020 project sanctioned by DBT,India </marquee>
+
+            <h2>
+            AWARDS & ACHIVEMENTS
+        </h2>
+        <style>
+
+            *{
+            box-sizing:border-box;
+            }
+            img{
+              vertical-align: middle;
+            }
+
+        </style>
+        <div class="containerimg ">
+               <div class="mySlides myCarouse12" >
+                <img src="image.jpg"  style="width:100%; height:90%">
+              </div>
+              <div class="mySlides myCarouse12" >
+                <img src="image1.jpg"  style="width:100%; height:90%">
+              </div>
+              <div class="mySlides myCarouse12"  >
+                <img src="image2.jpg"   style="width:100%; height:90%">
+              </div>
+              <div class="mySlides myCarouse12"  >
+                <img src="image3.jpg"   style="width:100%; height:90%">
+              </div>
+              <div class="mySlides myCarouse12" >
+                <img src="image4.jpg"  style="width:100%; height:90%">
+              </div>
+              <div class="mySlides myCarouse12"  >
+                <img src="image5.jpg"   style="width:100%; height:90%">
+              </div>
+            </div>
+            <a class="prev " onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              var captionText = document.getElementById("caption");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots
+              [slideIndex-1].className += " active";
+              captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+            </script>
+
+
+            <!--Intro Section-->
+            <section class="intro">
+
+                <h2>Welcome to SRKREC!</h2>
+                <p>Sagi Rama Krishnam Raju Engineering College is a Co-educational, Independent and a Self Financed Engineering College. SRKREC was established with a mission to develop the college into a centre of Excellence in the field of Technical Education, capable of training students as sound professionals to cater to the needs of the society.</p>
+                <a class="btn btn-gen2 " href="register.html">Register</a>
+                 <a class="btn btn-gen2 " href="contact.html">Contact us</a>
+            </section>
+
+            <h2><u>Courses offered</u></h2>
+            <!--Teasers Section-->
+            <a href="courses.html"></a>
+            <section class="grid">
+
+              <section class=" teaser col-1-3" style="background-color:lavender">
+
+                <h4>COMPUTER SCIENCE OF ENGINEERING</h4>
+                <p>mode:<b>full time</b> | Duration:<b>4 Years</b> | Offered by:<b>Andhra University</b></p><br>
+                <p>Computer science is the study of computation and information.Computer science deals with theory of computation, algorithms, computational problems and the design of computer systems hardware, software and applications </p>
+              </section><!--
+
+              --><section class="teaser col-1-3" style="background-color:lavender">
+                <h4>ELECTRICAL ENGINEERING</h4>
+                <p>mode:<b>full time</b> | Duration:<b>4 Years</b> | Offered by:<b>Andhra University</b></p><br>
+                <p>Electrical engineering is an engineering discipline concerned with the study,design and applocations of equipment,devices and systems which use electricity,electronics</p>
+              </section><!--
+
+              --><section class="teaser col-1-3" style="background-color:lavender">
+                <h4>MECHANICAL ENGINEERING</h4>
+                <p>mode:<b>full time</b> | Duration:<b>4 Years</b> | Offered by:<b>Andhra University</b></p><br>
+                <p>Mechanical Engineering is the study,design,development,construction and testing of mechanical and thermal sensors and devices including tools,engines and machines</p>
+              </section>
+
+            </section>
+
+            <!--Footer Section-->
+            <footer class="primary-footer ">
+                <h3 style="color:black;">For further details contact us on</h3><i class="fa fa-phone" aria-hidden="true">&nbsp;&nbsp;<p>08816223332</p></i>
+                <h3 style="color:black;">mail us at &nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:support@edu.com"> support@srkr.com</a></h3>
+                <h3 style="color:black;">Follow us on</h3>
+                <div class="footer-icons">
+                   <a href="https://www.facebook.com/SRKRECOFFICIAL" target="_new"><i class="fa fa-facebook" style="color:black;"></i></a>&nbsp;&nbsp;
+                   <a href="https://www.instagram.com/srkr_engineering_college" target="_new"><i class="fa fa-instagram" style="color:black;"></i></a>&nbsp;&nbsp;
+                   <a href="https://twitter.com/SRKR_EC" target="_new"><i class="fa fa-twitter" style="color:black;"></i></a>&nbsp;&nbsp;
+                   <a href="https://www.youtube.com/c/SRKREC" target="_new"><i class="fa fa-youtube-play" style="color:black;"></i></a>&nbsp;&nbsp;
+                   <br>
+                   <br>
+                   <center>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This website <a href="#" target="#" class="text-primary">
+
+                    SRKR Engineering college,Bhimavaram</a>
+                  </div>
+
+            </footer>
+
+    </body>
+</html>
