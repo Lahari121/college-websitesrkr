@@ -1,0 +1,217 @@
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    border:1px solid #e7e7e7;
+    background-color:#f3f3f3;
+  }
+  li{
+    float:left;
+  }
+  li a, .dropbtn{
+    display:inline-block;
+    color:#666;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+  }
+  li a:hover, .dropdown:hover .dropbtn{
+    background-color:#ddd;
+  }
+  li.dropdown{
+    display:inline-block;
+  }
+  .dropdown-content{
+    display:none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rbga(0,0,0,0.2);
+    z-index:1;
+  }
+  .dropdown-content a{
+    color:black;
+    padding:12px 16px;
+    text-decoration:none;
+    display:block;
+    text-align:left;
+  }
+  .dropdown-content a:hover{
+    background-color:#f1f1f1;
+  }
+  .dropdown:hover .dropdown-content{
+    display:block;
+  }
+  .active{
+    color:white;
+    background-color:#4caf50;
+  }
+
+  body{
+      background-color:lavender;
+  }
+  * {
+    box-sizing:border-box;
+  }
+  a{
+    color:green;
+    text-decoration:none;
+  }
+  a:hover{
+    color:rgb(224, 44, 74);
+  }
+   /*
+=============================
+PRIMARY HEADER
+=============================
+*/
+
+.logo {
+	margin :0 auto;
+  background-color:#3399ff;
+}
+.tagline {
+
+  background-color:#cce5ff;
+}
+
+/*
+=============================
+CLEARFIX
+=============================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+=============================
+PADDING
+=============================
+*/
+.container2{
+  padding: 16px;
+  background-color:#cce5ff;
+  display:inline-block;
+  vertical-align:top;
+
+}
+
+input[type=email], input[type=name], select,textarea{
+  width:100%;
+  padding:15px;
+  margin: 5px 0 22px 0;
+  display:inline-block;
+  border:none;
+  background:#f1f1f1;
+  border-radius: 4px;
+}
+
+input[type=email]:focus, input[type=name]:focus, select:focus, textarea:focus{
+  background-color:#ddd;
+  outline:none;
+}
+
+ol {
+  background:#ff9999;
+  padding:20px;
+}
+ol li{
+  background:#ffe5e5;
+  margin:5px;
+}
+
+/* Submit button */
+.registerbtn{
+  background-color:#4caf50;
+  color:white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width:100%;
+  opacity:0.9;
+}
+
+.registerbtn:hover{
+  opacity: 1;
+}
+
+/* color to links */
+a{
+  color:dodgerblue;
+}
+
+/* sign-in section */
+.signin{
+  background-color:#f1f1f1;
+  text-align:center;
+}
+
+.merits{
+  display: inline-bloack;
+  float:right;
+  width:40%;
+  vertical-align:top;
+  top:50%;
+  position:absolute;
+}
+
+.merits,
+.col2-3{
+  display:inline-block;
+  vertical-align:top;
+}
+.merits{
+  width:40%;
+}
+.col2-3{
+  width:60%;
+}
+
+.grid,
+.merits,
+.col2-3{
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.container1{
+  border-radius:5px;
+  background-color:grey;
+  padding:40px;
+  margin-top:10px;
+  margin-bottom:20px;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+/*
+=============================
+footer
+=============================
+*/
+.primary-footer{
+  background-color:#3399ff;
+  text-align:center;
+  color:black;
+
+}
+.primary-footer a{
+  color:green;
+}
+
+.primary-footer a:hover{
+  color:red;
+}
