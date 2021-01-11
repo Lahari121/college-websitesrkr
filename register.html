@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1">
+        <title>Registration Form</title>
+
+
+        <link rel="icon" href="images.jfif">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="register.css">
+
+        <body>
+        <header class="group">
+            <h1 class="logo tagline">
+                <a href="index.html">SRKR Engineering College</a><img src="srkr.png" alt="srkr" style="height:250px; width:1000px">&nbsp;&nbsp;
+                 <i class="fa fa-map-marker" aria-hidden="true">Chinnamiram<br>Bhimavarm<br>Andhra Pradesh , 534204</i>
+            </h1>
+
+        </header>
+        </body>
+        <ul>
+            <li><a  href="index.html">Home</a></li>
+            <li><a class="active" href="register.html">Register</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Courses</a>
+               <div class="dropdown-content">
+                <a href="Computer">Computer Science</a>
+                <a href="Electronic">Electronic Engineering</a>
+                <a href="Mechanical">MEchanical Engineering</a>
+               </div>
+            </li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </head>
+    <section class="row">
+        <div class="grid">
+            <section class="col2-3">
+                <form action="#" method="post">
+                    <div class="container1">
+
+                        <h1>Register Form</h1>
+                        <p>Fill the form to join in our college</p>
+                        <hr>
+                        <form action="/action_page.php">
+                        <label for="name"><b>Name</b></label>
+                        <input type="name" placeholder="Enter full name" name="name" id="name" required=true><br>
+                        </form>
+                        <form action="/action_page.php">
+                        <label for="email"><b>Email</b></label>
+                        <input type="email" placeholder="           @gmail.com" name="email" id="email" required=true><br>
+                        </form>
+
+                        <label for="courses"><b>Courses Offered</b></label>
+                        <select id="course" required="true" name="course">
+                            <option value="none" default>None</option>
+                            <option value="CSE">Computer Science</option>
+                            <option value="mechanical">Mechanical</option>
+                            <option value="electrical">Electrical</option>
+                        </select>
+
+                        <hr>
+                        <p>BY registering you agree to our <a href="#">Terms & privacy</a></p>
+
+                        <a href="#"></a><button type="reset" class="registerbtn">Submit</button></a>
+                    </div>
+                </form>
+            </section>
+
+            <ol class="merits a ">
+                <p>Follw the instructions to fill the form</p>
+                <li>Enter the student name as per SSC</li>
+                <li>Give student's email address</li>
+                <li>Select your course in dropdown</li>
+                <li>Submit your details</li>
+            </ol>
+        </div>
+        </section>
+    <body>
+        <!--Footer Section-->
+        <footer class="primary-footer ">
+            <h3 style="color:black;">For further details contact us on</h3><i class="fa fa-phone" aria-hidden="true">&nbsp;&nbsp;<p>08816223332</p></i>
+            <h3 style="color:black;">mail us at &nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:support@edu.com"> support@srkr.com</a></h3>
+            <h3 style="color:black;">Follow us on</h3>
+            <div class="footer-icons">
+               <a href="https://www.facebook.com/SRKRECOFFICIAL" target="_new"><i class="fa fa-facebook" style="color:black;"></i></a>&nbsp;&nbsp;
+               <a href="https://www.instagram.com/srkr_engineering_college" target="_new"><i class="fa fa-instagram" style="color:black;"></i></a>&nbsp;&nbsp;
+               <a href="https://twitter.com/SRKR_EC" target="_new"><i class="fa fa-twitter" style="color:black;"></i></a>&nbsp;&nbsp;
+               <a href="https://www.youtube.com/c/SRKREC" target="_new"><i class="fa fa-youtube-play" style="color:black;"></i></a>&nbsp;&nbsp;
+              <br>
+               <center>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This website <a href="#" target="#" class="text-primary"> SRKR Engineering college,Bhimavaram</a>
+
+
+            </div>
+        </footer>
+    </body>
+
+</html>
