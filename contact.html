@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1">
+        <title>Registration Form</title>
+
+
+        <link rel="icon" href="images.jfif">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="contact.css">
+
+        <body>
+        <header class="group">
+            <h1 class="logo tagline">
+                <a href="index.html">SRKR Engineering College</a><img src="srkr.png" alt="srkr" style="height:250px; width:1000px">&nbsp;&nbsp;
+                 <i class="fa fa-map-marker" aria-hidden="true">Chinnamiram<br>Bhimavarm<br>Andhra Pradesh , 534204</i>
+            </h1>
+
+        </header>
+        </body>
+        <ul>
+            <li><a  href="index.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li class="dropdown">
+                <a  href="javascript:void(0)" class="dropbtn">Courses</a>
+               <div class="dropdown-content">
+                <a href="Computer">Computer Science</a>
+                <a href="Electronic">Electronic Engineering</a>
+                <a href="Mechanical">MEchanical Engineering</a>
+               </div>
+            </li>
+            <li><a  class="active" href="contact.html">Contact us</a></li>
+        </ul>
+    </head>
+    <div class="container3">
+        <h1 style="color:white; text-align:center;">Contact us:</h1>
+        <form action="#home" onsubmit="myFunction()">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" required="true" placeholder="Your name.."><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+            <label for="subject">Issues</label>
+            <textarea id="subject" name="subject" required="true" placeholder="Write something here" style="height:150px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <script>
+            function myFunction() {
+              alert("The form was submitted");
+            }
+            </script>
+    </div>
+
+    <body>
+        <!--Footer Section-->
+        <footer class="primary-footer ">
+            <h3 style="color:black;">For further details contact us on</h3><i class="fa fa-phone" aria-hidden="true">&nbsp;&nbsp;<p>08816223332</p></i>
+            <h3 style="color:black;">mail us at &nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:support@edu.com"> support@srkr.com</a></h3>
+            <h3 style="color:black;">Follow us on</h3>
+            <div class="footer-icons">
+               <a href="https://www.facebook.com/SRKRECOFFICIAL" target="_new"><i class="fa fa-facebook" style="color:black;"></i></a>&nbsp;&nbsp;
+               <a href="https://www.instagram.com/srkr_engineering_college" target="_new"><i class="fa fa-instagram" style="color:black;"></i></a>&nbsp;&nbsp;
+               <a href="https://twitter.com/SRKR_EC" target="_new"><i class="fa fa-twitter" style="color:black;"></i></a>&nbsp;&nbsp;
+               <a href="https://www.youtube.com/c/SRKREC" target="_new"><i class="fa fa-youtube-play" style="color:black;"></i></a>&nbsp;&nbsp;
+              <br>
+               <center>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This website <a href="#" target="#" class="text-primary"> SRKR Engineering college,Bhimavaram</a>
+
+
+            </div>
+        </footer>
+    </body>
+</html>
